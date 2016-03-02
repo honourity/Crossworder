@@ -5,5 +5,7 @@
         public bool Enabled { get; set; }
 
         public int? WordID { get; set; }
+
+        public char? Letter { get; set; }
     }
 }

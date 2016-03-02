@@ -1,0 +1,552 @@
+{
+  "board": [
+    [
+      {
+        "key": 1,
+        "enabled": 1
+      },
+      { "enabled": 1 },
+      {
+        "key": 2,
+        "enabled": 1
+      },
+      { "enabled": 1 },
+      {
+        "key": 3,
+        "enabled": 1
+      },
+      {
+        "key": 4,
+        "enabled": 1
+      },
+      { },
+      {
+        "key": 5,
+        "enabled": 1
+      },
+      {
+        "key": 6,
+        "enabled": 1
+      },
+      { "enabled": 1 },
+      {
+        "key": 7,
+        "enabled": 1
+      },
+      { "enabled": 1 },
+      {
+        "key": 8,
+        "enabled": 1
+      }
+    ],
+    [
+      { "enabled": 1 },
+      { },
+      { "enabled": 1 },
+      { },
+      {
+        "key": 9,
+        "enabled": 1
+      },
+      { "enabled": 1 },
+      { "enabled": 1 },
+      { "enabled": 1 },
+      { "enabled": 1 },
+      { },
+      { "enabled": 1 },
+      { },
+      { "enabled": 1 }
+    ],
+    [
+      {
+        "key": 10,
+        "enabled": 1
+      },
+      { "enabled": 1 },
+      { "enabled": 1 },
+      { "enabled": 1 },
+      { "enabled": 1 },
+      { "enabled": 1 },
+      { },
+      {
+        "key": 11,
+        "enabled": 1
+      },
+      { "enabled": 1 },
+      { "enabled": 1 },
+      { "enabled": 1 },
+      { "enabled": 1 },
+      { "enabled": 1 }
+    ],
+    [
+      { "enabled": 1 },
+      { },
+      { "enabled": 1 },
+      { },
+      {
+        "key": 12,
+        "enabled": 1
+      },
+      { "enabled": 1 },
+      {
+        "key": 13,
+        "enabled": 1
+      },
+      { "enabled": 1 },
+      { "enabled": 1 },
+      { },
+      { "enabled": 1 },
+      { },
+      { "enabled": 1 }
+    ],
+    [
+      {
+        "key": 14,
+        "enabled": 1
+      },
+      {
+        "key": 15,
+        "enabled": 1
+      },
+      { "enabled": 1 },
+      {
+        "key": 16,
+        "enabled": 1
+      },
+      { },
+      {
+        "key": 17,
+        "enabled": 1
+      },
+      { "enabled": 1 },
+      { "enabled": 1 },
+      { },
+      {
+        "key": 18,
+        "enabled": 1
+      },
+      { "enabled": 1 },
+      {
+        "key": 19,
+        "enabled": 1
+      },
+      { "enabled": 1 }
+    ],
+    [
+      {
+        "key": 20,
+        "enabled": 1
+      },
+      { "enabled": 1 },
+      { "enabled": 1 },
+      { "enabled": 1 },
+      {
+        "key": 21,
+        "enabled": 1
+      },
+      { },
+      { "enabled": 1 },
+      { },
+      {
+        "key": 22,
+        "enabled": 1
+      },
+      { "enabled": 1 },
+      { "enabled": 1 },
+      { "enabled": 1 },
+      { "enabled": 1 }
+    ],
+    [
+      { },
+      { "enabled": 1 },
+      { },
+      {
+        "key": 23,
+        "enabled": 1
+      },
+      { "enabled": 1 },
+      { "enabled": 1 },
+      { "enabled": 1 },
+      { "enabled": 1 },
+      { "enabled": 1 },
+      { "enabled": 1 },
+      { },
+      { "enabled": 1 },
+      { }
+    ],
+    [
+      {
+        "key": 24,
+        "enabled": 1
+      },
+      { "enabled": 1 },
+      {
+        "key": 25,
+        "enabled": 1
+      },
+      { "enabled": 1 },
+      { "enabled": 1 },
+      { },
+      { "enabled": 1 },
+      { },
+      {
+        "key": 26,
+        "enabled": 1
+      },
+      { "enabled": 1 },
+      {
+        "key": 27,
+        "enabled": 1
+      },
+      { "enabled": 1 },
+      {
+        "key": 28,
+        "enabled": 1
+      }
+    ],
+    [
+      {
+        "key": 29,
+        "enabled": 1
+      },
+      { "enabled": 1 },
+      { "enabled": 1 },
+      { "enabled": 1 },
+      { },
+      {
+        "key": 30,
+        "enabled": 1
+      },
+      { "enabled": 1 },
+      {
+        "key": 31,
+        "enabled": 1
+      },
+      { },
+      {
+        "key": 32,
+        "enabled": 1
+      },
+      { "enabled": 1 },
+      { "enabled": 1 },
+      { "enabled": 1 }
+    ],
+    [
+      { "enabled": 1 },
+      { },
+      { "enabled": 1 },
+      { },
+      {
+        "key": 33,
+        "enabled": 1
+      },
+      { "enabled": 1 },
+      { "enabled": 1 },
+      { "enabled": 1 },
+      {
+        "key": 34,
+        "enabled": 1
+      },
+      { },
+      { "enabled": 1 },
+      { },
+      { "enabled": 1 }
+    ],
+    [
+      {
+        "key": 35,
+        "enabled": 1
+      },
+      { "enabled": 1 },
+      { "enabled": 1 },
+      { "enabled": 1 },
+      { "enabled": 1 },
+      { "enabled": 1 },
+      { },
+      {
+        "key": 36,
+        "enabled": 1
+      },
+      { "enabled": 1 },
+      { "enabled": 1 },
+      { "enabled": 1 },
+      { "enabled": 1 },
+      { "enabled": 1 }
+    ],
+    [
+      { "enabled": 1 },
+      { },
+      { "enabled": 1 },
+      { },
+      {
+        "key": 37,
+        "enabled": 1
+      },
+      { "enabled": 1 },
+      { "enabled": 1 },
+      { "enabled": 1 },
+      { "enabled": 1 },
+      { },
+      { "enabled": 1 },
+      { },
+      { "enabled": 1 }
+    ],
+    [
+      {
+        "key": 38,
+        "enabled": 1
+      },
+      { "enabled": 1 },
+      { "enabled": 1 },
+      { "enabled": 1 },
+      { "enabled": 1 },
+      { "enabled": 1 },
+      { },
+      {
+        "key": 39,
+        "enabled": 1
+      },
+      { "enabled": 1 },
+      { "enabled": 1 },
+      { "enabled": 1 },
+      { "enabled": 1 },
+      { "enabled": 1 }
+    ]
+  ],
+  "words": {
+    "across": [
+      {
+        "key": 1,
+        "word": "Flaw",
+        "length": 6
+      },
+      {
+        "key": 5,
+        "word": "Talented",
+        "length": 6
+      },
+      {
+        "key": 9,
+        "word": "Plant",
+        "length": 5
+      },
+      {
+        "key": 10,
+        "word": "Scatter",
+        "length": 6
+      },
+      {
+        "key": 11,
+        "word": "Wrote",
+        "length": 6
+      },
+      {
+        "key": 12,
+        "word": "Walked",
+        "length": 5
+      },
+      {
+        "key": 14,
+        "word": "Thoroughfare",
+        "length": 4
+      },
+      {
+        "key": 17,
+        "word": "Youth",
+        "length": 3
+      },
+      {
+        "key": 18,
+        "word": "Yield",
+        "length": 4
+      },
+      {
+        "key": 20,
+        "word": "Grant",
+        "length": 5
+      },
+      {
+        "key": 22,
+        "word": "Helped",
+        "length": 5
+      },
+      {
+        "key": 23,
+        "word": "Tidiest",
+        "length": 7
+      },
+      {
+        "key": 24,
+        "word": "Respond",
+        "length": 5
+      },
+      {
+        "key": 26,
+        "word": "Punitive",
+        "length": 5
+      },
+      {
+        "key": 29,
+        "word": "Border",
+        "length": 4
+      },
+      {
+        "key": 30,
+        "word": "Limb",
+        "length": 3
+      },
+      {
+        "key": 32,
+        "word": "Challenge",
+        "length": 4
+      },
+      {
+        "key": 33,
+        "word": "Liberated",
+        "length": 5
+      },
+      {
+        "key": 35,
+        "word": "Rubber",
+        "length": 6
+      },
+      {
+        "key": 36,
+        "word": "Objective",
+        "length": 6
+      },
+      {
+        "key": 37,
+        "word": "Tag",
+        "length": 5
+      },
+      {
+        "key": 38,
+        "word": "Being",
+        "length": 6
+      },
+      {
+        "key": 39,
+        "word": "Give",
+        "length": 6
+      }
+    ],
+    "down": [
+      {
+        "key": 1,
+        "word": "Abandon",
+        "length": 6
+      },
+      {
+        "key": 2,
+        "word": "Arrangement",
+        "length": 6
+      },
+      {
+        "key": 3,
+        "word": "Applaud",
+        "length": 4
+      },
+      {
+        "key": 4,
+        "word": "Of tides",
+        "length": 5
+      },
+      {
+        "key": 5,
+        "word": "Yawned",
+        "length": 5
+      },
+      {
+        "key": 6,
+        "word": "Frozen",
+        "length": 4
+      },
+      {
+        "key": 7,
+        "word": "Canned",
+        "length": 6
+      },
+      {
+        "key": 8,
+        "word": "Evaded",
+        "length": 6
+      },
+      {
+        "key": 13,
+        "word": "Catch",
+        "length": 7
+      },
+      {
+        "key": 15,
+        "word": "Lubricated",
+        "length": 5
+      },
+      {
+        "key": 16,
+        "word": "Jig",
+        "length": 5
+      },
+      {
+        "key": 18,
+        "word": "Quoted",
+        "length": 5
+      },
+      {
+        "key": 19,
+        "word": "Prevent",
+        "length": 5
+      },
+      {
+        "key": 21,
+        "word": "Entrap",
+        "length": 3
+      },
+      {
+        "key": 22,
+        "word": "Serpent",
+        "length": 3
+      },
+      {
+        "key": 24,
+        "word": "Respect",
+        "length": 6
+      },
+      {
+        "key": 25,
+        "word": "Astounded",
+        "length": 6
+      },
+      {
+        "key": 27,
+        "word": "Scolded",
+        "length": 6
+      },
+      {
+        "key": 28,
+        "word": "Character",
+        "length": 6
+      },
+      {
+        "key": 30,
+        "word": "Dress",
+        "length": 5
+      },
+      {
+        "key": 31,
+        "word": "Measure",
+        "length": 5
+      },
+      {
+        "key": 33,
+        "word": "Sensed",
+        "length": 4
+      },
+      {
+        "key": 34,
+        "word": "Valley",
+        "length": 4
+      }
+    ]
+  }
+}

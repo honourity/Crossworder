@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Data.Interfaces;
+using System;
 
 namespace Crossworder
 {
@@ -6,6 +7,10 @@ namespace Crossworder
     {
         static void Main(string[] args)
         {
+            IPuzzleRepository puzzleRepository = new Data.Repositories.PuzzleRepository();
+
+            var puzzle = puzzleRepository.GetPuzzle();
+
             Console.ReadKey();
         }
     }

@@ -6,6 +6,6 @@ namespace Data.Models
     {
         public Cell[,] Board { get; set; }
 
-        public Dictionary<int, Word> Words { get; set; }
+        public IList<Word> Words { get; set; }
     }
 }

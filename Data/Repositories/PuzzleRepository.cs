@@ -1,55 +1,74 @@
-﻿using Data.Models;
+﻿using Data.Interfaces;
+using Data.Models;
+using Newtonsoft.Json;
+using System.Collections.Generic;
 using System.IO;
 
-namespace Data.Interfaces
+namespace Data.Repositories
 {
     public class PuzzleRepository : IPuzzleRepository
     {
-        public Puzzle GetNewPuzzle()
+        public Puzzle GetPuzzle()
         {
-            var puzzle = new Puzzle();
-
-            //init sample puzzle
-            //puzzle.Board[0, 0] = new Cell { Enabled = true, WordID = 1 };
-
-
-            //...puzzle.Board[13,13]
+            //temp sample puzzle
+            var puzzle = ReadPuzzleFromFile("SampleData\\puzzle1.json");
 
             return puzzle;
         }
 
-        private Puzzle ReadPuzzleFromFile()
+        /// <summary>
+        /// The format for the puzzle file is:
+        /// 2D Json array
+        /// "key" is integer value of word key number
+        /// "enabled" is whether the cell is usable or blacked out
+        /// e.g. 1x1 puzzle with a single 1 letter word: [[{"key":1,"enabled":1}]]
+        /// </summary>
+        /// <returns>Data.Models.Puzzle</returns>
+        private Puzzle ReadPuzzleFromFile(string filename)
         {
-            //assuming 13x13 puzzle
-            int width = 13;
-            int height = 13;
+            dynamic jsonPuzzle = JsonConvert.DeserializeObject(File.ReadAllText(filename));
+            int puzzleSize = jsonPuzzle.board.Count;
 
-            var path = "puzzle1.txt";
             var puzzle = new Puzzle();
-            puzzle.Board = new Cell[width, height];
+            puzzle.Board = new Cell[puzzleSize, puzzleSize];
 
-            using (StreamReader reader = new StreamReader(path))
+            int i = 0;
+            int j = 0;
+
+            while (i < puzzleSize)
             {
-                int location = 0;
-
-                while (reader.Peek() >= 0)
+                while (j < puzzleSize)
                 {
-                    switch ((char)reader.Read())
-                    {
-                        case ' ':
-                            //its enabled, empty block
-                            break;
-                        case '.':
-                            //its disabled block
-                            break;
-                        case '\n':
-                            //new row in puzzle
-                            break;
-                        default:
-                            //its enabled, with word key
-                            break;
-                    }
+                    puzzle.Board[i, j] = new Cell();
+                    puzzle.Board[i, j].Enabled = ((jsonPuzzle.board[i][j].enabled != null) && (jsonPuzzle.board[i][j].enabled == 1));
+                    puzzle.Board[i, j].WordID = ((jsonPuzzle.board[i][j].key != null)) ? jsonPuzzle.board[i][j].key : null;
+                    j++;
                 }
+
+                j = 0;
+                i++;
+            }
+
+            puzzle.Words = new List<Word>();
+
+            foreach(dynamic jsonWord in jsonPuzzle.words.across)
+            {
+                Word word = new Word();
+                word.Direction = WordDirection.Across;
+                word.Hint = jsonWord.word;
+                word.Key = jsonWord.key;
+                word.Length = jsonWord.length;
+                puzzle.Words.Add(word);
+            }
+
+            foreach (dynamic jsonWord in jsonPuzzle.words.down)
+            {
+                Word word = new Word();
+                word.Direction = WordDirection.Down;
+                word.Hint = jsonWord.word;
+                word.Key = jsonWord.key;
+                word.Length = jsonWord.length;
+                puzzle.Words.Add(word);
             }
 
             return puzzle;
