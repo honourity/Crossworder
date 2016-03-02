@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3861DA92-9C81-4AEB-A2F8-6EE7F6CA2680}</ProjectGuid>
+    <ProjectGuid>{83CDFCD6-D2F3-49EA-AB80-E36B725771CC}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Data</RootNamespace>
@@ -44,9 +44,10 @@
     <Compile Include="Interfaces\IWordRepostory.cs" />
     <Compile Include="Models\Cell.cs" />
     <Compile Include="Models\Puzzle.cs" />
+    <Compile Include="Models\Word.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\PuzzleRepository.cs" />
     <Compile Include="Repositories\WordRepository.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

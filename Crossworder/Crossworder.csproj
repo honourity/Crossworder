@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{76E19AB3-4F2B-4482-A417-E0D9F3C1C53C}</ProjectGuid>
+    <ProjectGuid>{BE5E20F8-52C8-4B37-B4E0-E4BD23A8C8E2}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Crossworder</RootNamespace>
