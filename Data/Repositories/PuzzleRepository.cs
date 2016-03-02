@@ -20,12 +20,18 @@ namespace Data.Interfaces
 
         private Puzzle ReadPuzzleFromFile()
         {
-            string path = "puzzle1.txt";
+            //assuming 13x13 puzzle
+            int width = 13;
+            int height = 13;
 
+            var path = "puzzle1.txt";
             var puzzle = new Puzzle();
+            puzzle.Board = new Cell[width, height];
 
             using (StreamReader reader = new StreamReader(path))
             {
+                int location = 0;
+
                 while (reader.Peek() >= 0)
                 {
                     switch ((char)reader.Read())
@@ -35,6 +41,9 @@ namespace Data.Interfaces
                             break;
                         case '.':
                             //its disabled block
+                            break;
+                        case '\n':
+                            //new row in puzzle
                             break;
                         default:
                             //its enabled, with word key
